@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_logo">Logo do Portal Torres Hotel</string>
+    <string name="foto_piscina">Foto da piscina do hotel</string>
+    <string name="app_desc">O Portal Torres Hotel fica a 3 km da Praia Grande em Torres. O estabelecimento oferece uma piscina com deck, salão de jogos, bar, restaurante e serviço de quarto. Para sua comodidade, estão disponíveis Wi-Fi e estacionamento gratuitos.   Todos os quartos são bem-iluminados, e possuem uma decoração simples, com piso de azulejo e um espaçoso guarda-roupa. Algumas acomodações oferecem ar-condicionado, enquanto outras contam com uma TV LCD grande. Todos os quartos possuem banheiro privativo.   Você pode saborear diariamente o buffet de café-da-manhã, que inclui uma variedade de frutas frescas, pães e frios. Você também pode desfrutar de especialidades regionais e uma variedade de bebidas no restaurante da casa.   Para a sua comodidade, a propriedade oferece lavanderia e recepção 24 horas. O Portal Torres Hotel fica a 1,5 km dos bares, lojas e restaurantes do centro de Torres, e a 200 km de Porto Alegre.   Possuímos 55 acomodações.</string>
+    <string name="app_reserve">Reserve já pelo:</string>
+    <string name="app_local">Av. Castelo Branco 1750 - Torres-RS</string>
+    <string name="app_email">reservas@portaltorreshotel.com.br</string>
+    <string name="app_fotos">Veja nossas fotos</string>
+    <string name="app_site">www.portaltorreshotel.com.com</string>
+    <string name="app_maiores">Maiores informações</string>
+    <string name="app_contato">Entre em contato</string>
+    <string name="app_name">Portal Torres Hotel</string>
+    <string name="app_number">5136642186</string>
+    <string name="app_url" translatable="false">http://www.portaltorreshotel.com.br</string>
+    <string name="ic_foto">Botão para Ver nossas fotos</string>
+    <string name="ic_local">Botão para ir para pagina</string>
+    <string name="ic_phone">Botão para realizar chamada</string>
+    <string name="ic_site">Botão para ir pro website</string>
+    <string name="ic_contato">Botão para entrar em contato</string>
+</resources>
