@@ -121,7 +121,7 @@ Novamente vamos fazer uso de um método para criar essa intent.
 
 Assim como para chamar o discador, precisamos chamar uma intenção de `Intent.ACTION_VIEW` para que nosso app encaminhe para o navegador padrão e inicie a intent com a URL informada por parâmetro 
 
-# 4 Conclusão
+# 4. Conclusão
 Ao fim desta aula você deve saber que:
 
 * As intents explícitas são usadas para navegar até atividades do seu app.
@@ -133,4 +133,23 @@ Ao fim desta aula você deve saber que:
 2. Criar o objeto Intent, fornecendo uma atividade ou um tipo de intent, conforme se ela for explícita ou implícita.
 3. Verificar se há necessidade de permissões, filtros ou dados a serem passados.
 4. Chamar a startActivity() passando por parâmetro o objeto intent.
+
+# 5. Mãos na massa!
+Agora que você já conhece as intents, chegou a sua vez de exercitar para isso faça.
+1. Crie uma intent em `ContatoActivity`  para enviar um email ao hotel.
+2. Crie uma intent e uma Activity para exibir ao menos uma fotto do hotel.
+
+## 5.1. Já terminou?
+Você já concluiu a atividade? Então crie uma nova atividade para abrir o mapa até o endereço do hotel.
+
+## 5.2 Correção dos exercicios.
+Acessando a branch `ManoNaMassa` do repositório, você terá a correção do item 5. Você pode clicar diretamente no link [Correção Mão na Massa.](https://github.com/ramonsl/uso_de_intents/tree/MaoNaMassa)
+
+Acessando a branch `ExtraMaps` do repositório, você terá a correção do item 5.1 Você pode clicar diretamente no link [Correção do Maps](https://github.com/ramonsl/uso_de_intents/tree/ExtraMaps)
+
+
+
+
+
+
 
