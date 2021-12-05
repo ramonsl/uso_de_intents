@@ -14,7 +14,6 @@ class ContatoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val bind = ActivityContatoBinding.inflate(layoutInflater)
         setContentView(bind.root)
-
         bind.btnFone.setOnClickListener(View.OnClickListener {
            dialPhoneNumber(bind.btnFone.text.toString())
         })
