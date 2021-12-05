@@ -27,4 +27,4 @@ Ao fim dessa aula você será capaz de:
 
 # Conhecendo o projeto
 
-![Imagem](https://github.com/ramonsl/uso_de_intents/blob/master/Screenshot_1638719463.png =250x)
+![Imagem](https://github.com/ramonsl/uso_de_intents/blob/master/Screenshot_1638719463.png =100x20)
