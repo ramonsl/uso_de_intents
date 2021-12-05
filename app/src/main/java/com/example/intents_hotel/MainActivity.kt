@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
         })
 
         bind.btnFotos.setOnClickListener(View.OnClickListener {
-            //Todo: implementar essa intent
+            val intent = Intent(this, FotosActivity::class.java)
+            startActivity(intent)
         })
 
     }

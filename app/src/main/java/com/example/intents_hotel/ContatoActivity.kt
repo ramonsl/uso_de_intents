@@ -15,7 +15,6 @@ class ContatoActivity : AppCompatActivity() {
         setContentView(bind.root)
 
         bind.btnFone.setOnClickListener(View.OnClickListener {
-            Log.d("Clique", "Email")
            dialPhoneNumber(bind.btnFone.text.toString())
         })
 
@@ -25,8 +24,9 @@ class ContatoActivity : AppCompatActivity() {
         })
 
         bind.btnEmail.setOnClickListener(View.OnClickListener {
-            Log.d("Clique", "Enviar")
-            //Todo: implementar essa intent
+            //Em alguns emuladores esse método pode não funcionar.
+            // Por isso realize o teste se possivel em um dispositivo que tenha uma conta de email configurada.
+            composeEmail(bind.btnEmail.text.toString(), "Reserva")
         })
     }
 
@@ -41,5 +41,16 @@ class ContatoActivity : AppCompatActivity() {
         val webpage: Uri = Uri.parse(url)
         val intent = Intent(Intent.ACTION_VIEW, webpage)
         startActivity(intent)
+    }
+
+   private fun composeEmail(addresses: String, subject: String) {
+        val intent = Intent(Intent.ACTION_SENDTO).apply {
+            data = Uri.parse("mailto:") // only email apps should handle this
+            putExtra(Intent.EXTRA_EMAIL, addresses)
+            putExtra(Intent.EXTRA_SUBJECT, subject)
+        }
+        if (intent.resolveActivity(packageManager) != null) {
+            startActivity(intent)
+        }
     }
 }
