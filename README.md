@@ -143,7 +143,7 @@ Agora que você já conhece as intents, chegou a sua vez de exercitar para isso 
 Você já concluiu a atividade? Então crie uma nova atividade para abrir o mapa até o endereço do hotel.
 
 ## 5.2 Correção dos exercicios.
-Acessando a branch `ManoNaMassa` do repositório, você terá a correção do item 5. Você pode clicar diretamente no link [Correção Mão na Massa.](https://github.com/ramonsl/uso_de_intents/tree/MaoNaMassa)
+Acessando a branch `MaoNaMassa` do repositório, você terá a correção do item 5. Você pode clicar diretamente no link [Correção Mão na Massa.](https://github.com/ramonsl/uso_de_intents/tree/MaoNaMassa)
 
 Acessando a branch `ExtraMaps` do repositório, você terá a correção do item 5.1 Você pode clicar diretamente no link [Correção do Maps](https://github.com/ramonsl/uso_de_intents/tree/ExtraMaps)
 
